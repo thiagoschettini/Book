@@ -18,6 +18,19 @@
 		C2DD16AF15C2C8EB000E62E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DD169615C2C8EB000E62E1 /* Foundation.framework */; };
 		C2DD16B715C2C8EB000E62E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DD16B515C2C8EB000E62E1 /* InfoPlist.strings */; };
 		C2DD16BA15C2C8EB000E62E1 /* BookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD16B915C2C8EB000E62E1 /* BookTests.m */; };
+		C2DD16CC15C2C963000E62E1 /* FirstPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD16CA15C2C963000E62E1 /* FirstPage.m */; };
+		C2DD16CD15C2C963000E62E1 /* FirstPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DD16CB15C2C963000E62E1 /* FirstPage.xib */; };
+		C2DD172B15C2DBBF000E62E1 /* SecondPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD172915C2DBBE000E62E1 /* SecondPage.m */; };
+		C2DD172C15C2DBBF000E62E1 /* SecondPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DD172A15C2DBBF000E62E1 /* SecondPage.xib */; };
+		C2DD173015C2F502000E62E1 /* ThirdPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD172E15C2F501000E62E1 /* ThirdPage.m */; };
+		C2DD173115C2F502000E62E1 /* ThirdPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DD172F15C2F501000E62E1 /* ThirdPage.xib */; };
+		C2DD173D15C30CAB000E62E1 /* run-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2DD173715C30CAB000E62E1 /* run-1.jpg */; };
+		C2DD173E15C30CAB000E62E1 /* run-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2DD173815C30CAB000E62E1 /* run-2.jpg */; };
+		C2DD173F15C30CAB000E62E1 /* run-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2DD173915C30CAB000E62E1 /* run-3.jpg */; };
+		C2DD174015C30CAB000E62E1 /* run-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2DD173A15C30CAB000E62E1 /* run-4.jpg */; };
+		C2DD174115C30CAB000E62E1 /* run-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2DD173B15C30CAB000E62E1 /* run-5.jpg */; };
+		C2DD174215C30CAB000E62E1 /* run-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2DD173C15C30CAB000E62E1 /* run-6.jpg */; };
+		C2DD174A15C314CA000E62E1 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2DD174915C314CA000E62E1 /* city.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +48,34 @@
 		C2DD169415C2C8EB000E62E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C2DD169615C2C8EB000E62E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2DD169815C2C8EB000E62E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C2DD169C15C2C8EB000E62E1 /* Book-Info.plist */ = {isa = PBXFileReference; path = "Book-Info.plist"; sourceTree = "<group>"; };
+		C2DD169C15C2C8EB000E62E1 /* Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Book-Info.plist"; sourceTree = "<group>"; };
 		C2DD169E15C2C8EB000E62E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2DD16A015C2C8EB000E62E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C2DD16A215C2C8EB000E62E1 /* Book-Prefix.pch */ = {isa = PBXFileReference; path = "Book-Prefix.pch"; sourceTree = "<group>"; };
-		C2DD16A315C2C8EB000E62E1 /* BookAppDelegate.h */ = {isa = PBXFileReference; path = BookAppDelegate.h; sourceTree = "<group>"; };
+		C2DD16A215C2C8EB000E62E1 /* Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Book-Prefix.pch"; sourceTree = "<group>"; };
+		C2DD16A315C2C8EB000E62E1 /* BookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookAppDelegate.h; sourceTree = "<group>"; };
 		C2DD16A415C2C8EB000E62E1 /* BookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookAppDelegate.m; sourceTree = "<group>"; };
 		C2DD16AB15C2C8EB000E62E1 /* BookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DD16AC15C2C8EB000E62E1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C2DD16B415C2C8EB000E62E1 /* BookTests-Info.plist */ = {isa = PBXFileReference; path = "BookTests-Info.plist"; sourceTree = "<group>"; };
+		C2DD16B415C2C8EB000E62E1 /* BookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookTests-Info.plist"; sourceTree = "<group>"; };
 		C2DD16B615C2C8EB000E62E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C2DD16B815C2C8EB000E62E1 /* BookTests.h */ = {isa = PBXFileReference; path = BookTests.h; sourceTree = "<group>"; };
+		C2DD16B815C2C8EB000E62E1 /* BookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookTests.h; sourceTree = "<group>"; };
 		C2DD16B915C2C8EB000E62E1 /* BookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookTests.m; sourceTree = "<group>"; };
+		C2DD16C915C2C963000E62E1 /* FirstPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPage.h; sourceTree = "<group>"; };
+		C2DD16CA15C2C963000E62E1 /* FirstPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPage.m; sourceTree = "<group>"; };
+		C2DD16CB15C2C963000E62E1 /* FirstPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstPage.xib; sourceTree = "<group>"; };
+		C2DD172815C2DBBE000E62E1 /* SecondPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPage.h; sourceTree = "<group>"; };
+		C2DD172915C2DBBE000E62E1 /* SecondPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPage.m; sourceTree = "<group>"; };
+		C2DD172A15C2DBBF000E62E1 /* SecondPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondPage.xib; sourceTree = "<group>"; };
+		C2DD172D15C2F501000E62E1 /* ThirdPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPage.h; sourceTree = "<group>"; };
+		C2DD172E15C2F501000E62E1 /* ThirdPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPage.m; sourceTree = "<group>"; };
+		C2DD172F15C2F501000E62E1 /* ThirdPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdPage.xib; sourceTree = "<group>"; };
+		C2DD173715C30CAB000E62E1 /* run-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "run-1.jpg"; path = "images/run-1.jpg"; sourceTree = "<group>"; };
+		C2DD173815C30CAB000E62E1 /* run-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "run-2.jpg"; path = "images/run-2.jpg"; sourceTree = "<group>"; };
+		C2DD173915C30CAB000E62E1 /* run-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "run-3.jpg"; path = "images/run-3.jpg"; sourceTree = "<group>"; };
+		C2DD173A15C30CAB000E62E1 /* run-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "run-4.jpg"; path = "images/run-4.jpg"; sourceTree = "<group>"; };
+		C2DD173B15C30CAB000E62E1 /* run-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "run-5.jpg"; path = "images/run-5.jpg"; sourceTree = "<group>"; };
+		C2DD173C15C30CAB000E62E1 /* run-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "run-6.jpg"; path = "images/run-6.jpg"; sourceTree = "<group>"; };
+		C2DD174915C314CA000E62E1 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +135,8 @@
 		C2DD169A15C2C8EB000E62E1 /* Book */ = {
 			isa = PBXGroup;
 			children = (
+				C2DD173615C30C8E000E62E1 /* images */,
+				C2DD16C815C2C934000E62E1 /* Paginas */,
 				C2DD16A315C2C8EB000E62E1 /* BookAppDelegate.h */,
 				C2DD16A415C2C8EB000E62E1 /* BookAppDelegate.m */,
 				C2DD169B15C2C8EB000E62E1 /* Supporting Files */,
@@ -141,6 +172,36 @@
 				C2DD16B515C2C8EB000E62E1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DD16C815C2C934000E62E1 /* Paginas */ = {
+			isa = PBXGroup;
+			children = (
+				C2DD16C915C2C963000E62E1 /* FirstPage.h */,
+				C2DD16CA15C2C963000E62E1 /* FirstPage.m */,
+				C2DD16CB15C2C963000E62E1 /* FirstPage.xib */,
+				C2DD172815C2DBBE000E62E1 /* SecondPage.h */,
+				C2DD172915C2DBBE000E62E1 /* SecondPage.m */,
+				C2DD172A15C2DBBF000E62E1 /* SecondPage.xib */,
+				C2DD172D15C2F501000E62E1 /* ThirdPage.h */,
+				C2DD172E15C2F501000E62E1 /* ThirdPage.m */,
+				C2DD172F15C2F501000E62E1 /* ThirdPage.xib */,
+			);
+			name = Paginas;
+			sourceTree = "<group>";
+		};
+		C2DD173615C30C8E000E62E1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C2DD174915C314CA000E62E1 /* city.jpg */,
+				C2DD173715C30CAB000E62E1 /* run-1.jpg */,
+				C2DD173815C30CAB000E62E1 /* run-2.jpg */,
+				C2DD173915C30CAB000E62E1 /* run-3.jpg */,
+				C2DD173A15C30CAB000E62E1 /* run-4.jpg */,
+				C2DD173B15C30CAB000E62E1 /* run-5.jpg */,
+				C2DD173C15C30CAB000E62E1 /* run-6.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +276,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DD169F15C2C8EB000E62E1 /* InfoPlist.strings in Resources */,
+				C2DD16CD15C2C963000E62E1 /* FirstPage.xib in Resources */,
+				C2DD172C15C2DBBF000E62E1 /* SecondPage.xib in Resources */,
+				C2DD173115C2F502000E62E1 /* ThirdPage.xib in Resources */,
+				C2DD173D15C30CAB000E62E1 /* run-1.jpg in Resources */,
+				C2DD173E15C30CAB000E62E1 /* run-2.jpg in Resources */,
+				C2DD173F15C30CAB000E62E1 /* run-3.jpg in Resources */,
+				C2DD174015C30CAB000E62E1 /* run-4.jpg in Resources */,
+				C2DD174115C30CAB000E62E1 /* run-5.jpg in Resources */,
+				C2DD174215C30CAB000E62E1 /* run-6.jpg in Resources */,
+				C2DD174A15C314CA000E62E1 /* city.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +322,9 @@
 			files = (
 				C2DD16A115C2C8EB000E62E1 /* main.m in Sources */,
 				C2DD16A515C2C8EB000E62E1 /* BookAppDelegate.m in Sources */,
+				C2DD16CC15C2C963000E62E1 /* FirstPage.m in Sources */,
+				C2DD172B15C2DBBF000E62E1 /* SecondPage.m in Sources */,
+				C2DD173015C2F502000E62E1 /* ThirdPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Book/Book-Prefix.pch";
 				INFOPLIST_FILE = "Book/Book-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -354,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Book/Book-Prefix.pch";
 				INFOPLIST_FILE = "Book/Book-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

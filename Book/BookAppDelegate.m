@@ -7,15 +7,45 @@
 //
 
 #import "BookAppDelegate.h"
+#import "FirstPage.h"
+#import "SecondPage.h"
+#import "ThirdPage.h"
 
 @implementation BookAppDelegate
 
-@synthesize window = _window;
+@synthesize window;
+@synthesize navController;
+
+-(IBAction)loadMenu:(id)sender{
+    [self.navController popToViewController:[self.navController.viewControllers objectAtIndex:0] animated:YES];
+}
+
+-(IBAction)loadView:(UIButton *)sender{
+    if(sender.tag == 1){
+        UINavigationController *secondPage = [[SecondPage alloc] initWithNibName:@"SecondPage" bundle: nil];
+        [[self navController] pushViewController:secondPage animated:YES];
+        //[self.navController popToViewController:[self.navController.viewControllers objectAtIndex:1] animated:YES];
+    }else if(sender.tag == 2){
+        UINavigationController *thirdPage = [[ThirdPage alloc] initWithNibName:@"ThirdPage" bundle: nil];
+        [[self navController] pushViewController:thirdPage animated:YES];
+        //[self.navController popToViewController:[self.navController.viewControllers objectAtIndex:1] animated:YES];    
+    }
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
+    UINavigationController *firstPage = [[FirstPage alloc] initWithNibName:@"FirstPage" bundle:nil];
+    UINavigationController *secondPage = [[SecondPage alloc] initWithNibName:@"SecondPage" bundle: nil];
+    UINavigationController *thirdPage = [[ThirdPage alloc] initWithNibName:@"ThirdPage" bundle: nil];
+    
+    self.navController = [[UINavigationController alloc] init];
+    self.navController.viewControllers = [NSArray arrayWithObjects:firstPage, secondPage, thirdPage, nil];
+    self.navController.navigationBarHidden = YES;
+    self.window.rootViewController = self.navController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

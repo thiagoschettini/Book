@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BookAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BookAppDelegate : UIResponder <UIApplicationDelegate, UINavigationControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) UINavigationController *navController;
 
 @end
